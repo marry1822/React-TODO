@@ -35,6 +35,26 @@ code {
 	margin-bottom: 20px;
 }
 
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 0.5rem;
+}
+
+.input{
+	margin-right: 1rem;
+}
+
 .addTodoInput {
 	width: 200px;
 	margin-right: 20px;
@@ -76,9 +96,8 @@ code {
 	margin: 0.5rem;
 }
 
-.modalBtn{
+.modalBtn {
 	background-color: violet;
 	font-weight: bolder;
 	margin-top: 20px;
-
 }
